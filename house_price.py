@@ -49,7 +49,7 @@ property_type_mapping = {"Apartment": 0,
                          "Villa" : 5}
 
 #reading pickle file
-with open("model.pkl",'rb')as f:
+with open("Model.pkl",'rb')as f:
     model=pickle.load(f)
 
 #create a function to accept inputs and create an array
